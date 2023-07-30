@@ -1,0 +1,649 @@
+body {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    margin: 0 auto;
+    width: 1240px;
+    background-color: #ffff;
+}
+
+
+
+.noblue:hover {
+    color: rgb(222, 26, 26);
+
+}
+
+.headernoblue:hover {
+    color: #000;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    text-align: end;
+}
+
+a:hover {
+    color: rgb(20, 23, 172);
+}
+
+/* start of header */
+
+.fa-solid  {
+    font-size: 80%;
+}
+
+.deg {
+    width: 16px;
+    height: 16px;
+}
+
+.fa-bell {
+    color: rgb(222, 26, 26);
+    font-size: 80%;
+}
+
+.fa-envelope {
+    font-size: 80%;
+}
+
+
+.mainheader {
+    display: flex;
+    margin: 1% 0 1% 0;
+    justify-content: space-around;
+}
+
+.loginwrap,
+.linkwrap {
+    display: flex;
+}
+
+
+.login {
+    align-self: end;
+    margin-bottom: 0.2vh;
+
+}
+
+.loginwrap {
+    gap: 10px;
+    transform: translateX(-30%);
+}
+
+.headimg {
+    height: 75px;
+}
+
+.itemsleft,
+.itemsright {
+    display: flex;
+}
+
+
+.itemsright {
+    margin-bottom: 0.2vh;
+    align-items: end;
+    gap: 10px;
+    transform: translateX(28%);
+}
+
+
+
+.headpromo {
+    align-self: end;
+    border-radius: 10px;
+    background: url(Screenshot_1.png) no-repeat center;
+    background-size: contain;
+    background-color: #ffff;
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 200px;
+    height: 25px;
+}
+
+
+.navlist:hover {
+    color: #ffff;
+    font-weight: bold;
+}
+
+
+nav {
+    position: sticky;
+}
+
+.mainnav {
+    height: 28px;
+}
+
+.navitems {
+    height: 28px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(222, 26, 26);
+    color: #ffff;
+    margin-bottom: 1%;
+}
+
+/* end of header */
+
+
+/* start of ticker */
+
+.slot-time {
+    font-size: 70%;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.ticker {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+    background-color: #F3F8F9;
+}
+
+.slot {
+    display: flex;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+
+.slotd {
+    width: 180px;
+    height: 85px;
+    text-align: justify;
+    border-right: 1px dotted black;
+    outline-offset: -10px;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+
+
+.-last {
+    border: none;
+
+}
+
+.-first {
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.-firstitem {
+    font-weight: bold;
+    margin-top: 15%;
+    color: rgb(222, 26, 26);
+}
+
+
+
+
+/* start of layout 1*/
+
+.layout {
+    display: flex;
+}
+
+.headlinewrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blurb {
+    margin-left: auto;
+}
+
+.headline {
+    height: 343px;
+    display: flex;
+}
+
+.headlinetxt {
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.headlinebtm,
+.headlinetxt {
+    margin-left: auto;
+    width: 80%;
+}
+
+.colorlink:hover {
+    color: #ffff;
+}
+
+.-credit {
+    font-weight: 200;
+    font-size: 80%;
+    margin-left: auto;
+    color: rgb(99, 99, 99);
+}
+
+
+.headlinewrap {
+    text-align: end;
+}
+
+/* end of layout 1  */
+
+/* start of layout 2 */
+
+
+.layout2left {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    gap: 2vh;
+    justify-content: space-evenly;
+    text-align: end;
+}
+
+
+.row {
+    height: 113px;
+    background-color: rgb(222, 26, 26);
+    color: #ffff;
+    display: flex;
+    flex-grow: 1;
+}
+
+.row-dt {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 1%;
+}
+
+.rowtitle {
+    font-weight: bold;
+}
+
+.rowdt {
+    font-size: 85%;
+}
+
+.rowfooter {
+    font-size: 70%;
+}
+
+.blueimg {
+    height: 113px;
+}
+
+
+.row:nth-child(2) {
+    background-color: rgb(20, 23, 172);
+}
+
+
+.row:nth-child(4) {
+    background-color: rgb(12, 28, 58);
+}
+
+.rowtitle,
+.rowdt,
+.rowfooter {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+/* end of layout 2 */
+
+/* start of articles */
+
+.articles {
+    display: flex;
+    gap: 1.6%;
+}
+
+
+.artleft,
+.artright {
+    width: 100%;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.arttitle {
+    margin: 1% 2% 1% auto;
+}
+
+.bg-title {
+    display: flex;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-align: end;
+    margin-left: auto;
+    width: 100%;
+    height: 30px;
+}
+
+
+.slotwrapper {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slotcard {
+    flex-wrap: wrap;
+    display: flex;
+    width: 190px;
+    height: 218px;
+}
+
+.cardimg {
+    width: 190px;
+    height: 108px;
+}
+
+
+.card-dt {
+    font-weight: bold;
+    line-height: 20px;
+    text-align: end;
+}
+
+.card-ft {
+    margin-left: auto;
+    font-size: 70%;
+    color: rgb(99, 99, 99);
+}
+
+/* end of atricles */
+
+
+/* start of news list */
+
+.-title {
+    justify-content: space-between;
+}
+
+.newstitle {
+    padding: 1%;
+}
+
+.-light {
+    padding-top: 1.5%;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+
+
+.artleft1,
+.artright1 {
+    width: 49.2%;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.artright1 {
+    display: none;
+}
+
+.news-list {
+    width: 49.2%;
+    display: flex;
+}
+
+.news-dt,
+.slotcontainer {
+    margin-top: 3%;
+}
+
+.news-dt {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    height: 450px;
+    gap: 1.5%;
+}
+
+
+
+.inner {
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+
+
+.-ft {
+    font-size: 70%;
+    color: rgb(99, 99, 99);
+    font-weight: 400;
+}
+
+.-newsdt {
+    margin-left: auto;
+}
+
+.slotcontainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.-side {
+    font-size: 90%;
+}
+
+.-sidecard {
+    width: 190px;
+    height: auto;
+}
+
+.-sidecontainer {
+    gap: 5%;
+}
+
+/* end of news */
+
+/* start of sports */
+
+.sport-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.-sport {
+    margin-top: 5%;
+}
+
+.-sports {
+    gap: 2vh;
+}
+
+
+.sports-left,
+.sports-right {
+    display: flex;
+}
+
+/* end of sports */
+
+/* start of red layout */
+
+
+.-redtitle {
+    background-color: rgb(222, 26, 26);
+}
+
+.redwrap {
+    display: flex;
+    gap: 1.6%;
+}
+
+.red {
+    border: 1px dotted black;
+    display: flex;
+    width: 47.1%;
+    height: 160px;
+    padding: 1% 1% 1% 1%;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+
+.redimg {
+    width: 190px;
+    height: 107px;
+}
+
+.redtitle {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.red-dt {
+    font-size: 90%;
+}
+
+.red-ft {
+    font-size: 85%;
+    font-weight: bold;
+    color: blue;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+
+
+.textdiv {
+    text-align: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+/* end of red layout */
+
+
+/* start of yplus */
+
+.yplus {
+    background-color: #090d15;
+    box-sizing: border-box;
+}
+
+.flexcontent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.flexitem {
+    position: relative;
+    margin-top: 2%;
+
+}
+
+.fleximg {
+    width: 371px;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000);
+
+}
+
+.imgtext {
+    text-align: end;
+    position: absolute;
+    left: 100px;
+    top: 61%;
+    margin-right: 4%;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.promo {
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 2px;
+    font-size: 105%;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 2%;
+}
+
+.buttons {
+    padding-top: 2%;
+    display: flex;
+    height: 41px;
+    justify-content: space-between;
+}
+
+.yplus-img {
+    margin-right: 45%;
+}
+
+.bottomlink {
+    display: flex;
+    justify-content: center;
+}
+
+.yplusbottom {
+    margin-bottom: 1.5%;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 2px;
+    font-size: 95%;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* end of yplus */
+
+
+
+.-grey {
+    display: flex;
+    gap: 1%;
+}
+
+.-greytitle {
+    background-color: #556775;
+}
+
+.-empty {
+    color: transparent;
+}
